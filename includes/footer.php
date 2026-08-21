@@ -40,12 +40,19 @@
                 <!-- Column 3: Corporate Address & Contact Desk -->
                 <div class="col-lg-3 col-md-6 text-start">
                     <h5 class="fw-bold text-white mb-3">Corporate Office</h5>
-                    <ul class="list-unstyled d-flex flex-column align-items-start gap-3 mt-3 text-white-50" style="font-size: 0.88rem;">
-                        <li class="d-flex align-items-start text-start gap-3">
-                            <i class="fa-solid fa-location-dot text-primary mt-1"></i> 
+                    <ul class="list-unstyled d-flex flex-column align-items-start gap-3 mt-3 text-white-50" style="font-size: 0.85rem;">
+                        <li class="d-flex align-items-start text-start gap-2.5">
+                            <i class="fa-solid fa-building-flag text-warning mt-1"></i> 
                             <div>
-                                <strong class="text-white">Registered Office Address:</strong><br>
+                                <strong class="text-white"><i class="fa-solid fa-location-crosshairs me-1 text-warning"></i> Corporate Office:</strong><br>
                                 Khata No. 170, Bhairav Baba Road, Pasipur, Maharajganj, Azamgarh, Uttar Pradesh - 276137
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start text-start gap-2.5">
+                            <i class="fa-solid fa-stamp text-success mt-1"></i> 
+                            <div>
+                                <strong class="text-white"><i class="fa-solid fa-file-contract me-1 text-success"></i> Registered Office:</strong><br>
+                                Naubarar Dewara, Jadid 33/11, Maharajganj, Nauwarar Dewara Jadid, Azamgarh, Sagri, UP - 276139
                             </div>
                         </li>
                         <li class="d-flex align-items-start text-start gap-3">

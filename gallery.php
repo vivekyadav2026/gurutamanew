@@ -21,50 +21,50 @@ include 'includes/header.php';
     <section class="section-padding bg-canvas text-start">
         <div class="container">
             <div class="row g-4">
-                <!-- Photo 1: JLG Group Meeting -->
+                <!-- Photo 1: Real Ground JLG Meeting -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0 rounded-4 overflow-hidden shadow-sm h-100 bg-white">
-                        <img src="images/rural_jlg_meeting.png" class="w-100 object-fit-cover" style="height: 220px;" alt="Rural JLG Meeting">
+                        <img src="images/field_jlg_meeting_1.jpg" class="w-100 object-fit-cover" style="height: 220px;" alt="Rural JLG Meeting Ground Photo">
                         <div class="card-body p-3">
-                            <span class="badge bg-success text-white mb-1">Micro Finance</span>
-                            <h4 class="h6 fw-bold text-dark mb-1">JLG Group Center Meeting</h4>
-                            <p class="small text-muted mb-0">Doorstep financial inclusion for rural women self-reliance in villages.</p>
+                            <span class="badge bg-success text-white mb-1"><i class="fa-solid fa-people-group me-1"></i> Micro Finance</span>
+                            <h4 class="h6 fw-bold text-dark mb-1">Authentic JLG Center Meeting</h4>
+                            <p class="small text-muted mb-0">Ground photo of doorstep financial inclusion for rural women in UP villages.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Photo 2: Doorstep Agent -->
+                <!-- Photo 2: Real Ground Field Officer -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0 rounded-4 overflow-hidden shadow-sm h-100 bg-white">
-                        <img src="images/rural_doorstep_agent.png" class="w-100 object-fit-cover" style="height: 220px;" alt="Doorstep Agent">
+                        <img src="images/field_loan_application_agent.jpg" class="w-100 object-fit-cover" style="height: 220px;" alt="Field Officer Form Filling">
                         <div class="card-body p-3">
-                            <span class="badge bg-primary text-white mb-1">Field Network</span>
+                            <span class="badge bg-primary text-white mb-1"><i class="fa-solid fa-file-signature me-1"></i> Doorstep Desk</span>
                             <h4 class="h6 fw-bold text-dark mb-1">Doorstep Field Verification</h4>
-                            <p class="small text-muted mb-0">DRA-certified field force filling loan application files at borrower doorstep.</p>
+                            <p class="small text-muted mb-0">DRA field officer filling loan application files directly at borrower house.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Photo 3: Dairy Microloan -->
+                <!-- Photo 3: Real Ground Rural Beneficiaries -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0 rounded-4 overflow-hidden shadow-sm h-100 bg-white">
-                        <img src="images/rural_dairy_microloan.png" class="w-100 object-fit-cover" style="height: 220px;" alt="Dairy Livestock Loan">
+                        <img src="images/field_beneficiaries_village.jpg" class="w-100 object-fit-cover" style="height: 220px;" alt="Village Women Beneficiaries">
                         <div class="card-body p-3">
-                            <span class="badge bg-warning text-dark mb-1">Livelihood Loan</span>
-                            <h4 class="h6 fw-bold text-dark mb-1">Dairy & Animal Husbandry Credit</h4>
-                            <p class="small text-muted mb-0">Promoting rural dairy farming, cattle purchasing, and milk production.</p>
+                            <span class="badge bg-warning text-dark mb-1"><i class="fa-solid fa-hand-holding-dollar me-1"></i> Rural Credit</span>
+                            <h4 class="h6 fw-bold text-dark mb-1">Village Women Beneficiaries</h4>
+                            <p class="small text-muted mb-0">Direct financial assistance to micro-entrepreneurs & self-help groups.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Photo 4: Tractor Vehicle Loan -->
+                <!-- Photo 4: Real Ground JLG Group Sourcing -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0 rounded-4 overflow-hidden shadow-sm h-100 bg-white">
-                        <img src="images/rural_tractor_loan.png" class="w-100 object-fit-cover" style="height: 220px;" alt="Tractor Vehicle Loan">
+                        <img src="images/field_jlg_meeting_2.jpg" class="w-100 object-fit-cover" style="height: 220px;" alt="Passbook Tracking Ground Photo">
                         <div class="card-body p-3">
-                            <span class="badge bg-danger text-white mb-1">Vehicle Loan</span>
-                            <h4 class="h6 fw-bold text-dark mb-1">Agricultural Tractor Financing</h4>
-                            <p class="small text-muted mb-0">Empowering farmers with modern agricultural machinery & tractor credit.</p>
+                            <span class="badge bg-info text-dark mb-1"><i class="fa-solid fa-book-open me-1"></i> Passbook Sourcing</span>
+                            <h4 class="h6 fw-bold text-dark mb-1">Passbook & Repayment Desk</h4>
+                            <p class="small text-muted mb-0">Transparent credit log & repayment tracking under bamboo shelter.</p>
                         </div>
                     </div>
                 </div>

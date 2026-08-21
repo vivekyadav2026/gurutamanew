@@ -5,15 +5,13 @@ $activePage = "home";
 include 'includes/header.php';
 ?>
 
-    <!-- Top Geo-Tag & Coverage Highlight Bar -->
+    <!-- Top Regional Coverage Strip -->
     <div class="bg-dark text-white py-1.5 border-bottom border-secondary" style="font-size:0.85rem;">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
                 <div class="d-flex align-items-center gap-2">
-                    <span class="geo-pulse-pin"></span>
-                    <span class="fw-bold text-success"><i class="fa-solid fa-location-dot me-1"></i> GEO-TAGGED HQ:</span>
-                    <span class="font-monospace text-warning fw-bold">26.273414 N, 83.118347 E</span>
-                    <span class="text-white-50 ms-2 d-none d-md-inline">(Pasipur, Maharajganj, Azamgarh, UP)</span>
+                    <span class="fw-bold text-success"><i class="fa-solid fa-shield-halved me-1"></i> RBI Compliant:</span>
+                    <span class="text-white-50">Gurutma Financial Services Pvt. Ltd. | Reg. Date: 2 June 2026</span>
                 </div>
                 <div class="d-flex align-items-center gap-2">
                     <span class="fw-bold text-white-50"><i class="fa-solid fa-map-location-dot me-1 text-primary"></i> States Covered:</span>
@@ -129,42 +127,36 @@ include 'includes/header.php';
         </button>
     </div>
 
-    <!-- Geo-Tag & Verified Corporate Overview Strip -->
-    <section class="py-3 bg-canvas border-bottom">
+    <!-- Verified Corporate Overview Strip -->
+    <section class="py-4 bg-canvas border-bottom">
         <div class="container">
-            <div class="row g-3 align-items-center">
+            <div class="row g-4 align-items-center">
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h2 class="h4 fw-extrabold text-dark mb-1">Empowering Rural India Through Doorstep Financial Services</h2>
+                    <span class="eyebrow-tag">GRASSROOTS CREDIT</span>
+                    <h2 class="h3 fw-extrabold text-dark mb-2">Empowering Rural India Through Doorstep Financial Services</h2>
                     <p class="text-muted mb-0 small lh-relaxed">
                         Gurutma Financial Services Pvt. Ltd. provides transparent microfinance, Joint Liability Group (JLG) loans, business loans, personal loans, vehicle loans, home loans, and MSME loans across <strong>UP, MP, Bihar, Jharkhand & Chhattisgarh</strong>.
                     </p>
                 </div>
                 <div class="col-lg-5">
-                    <div class="geo-tag-box text-start p-3">
-                        <div class="d-flex align-items-center justify-content-between mb-1.5 pb-1.5 border-bottom border-secondary">
-                            <div class="d-flex align-items-center gap-2">
-                                <span class="geo-pulse-pin"></span>
-                                <span class="geo-tag-title"><i class="fa-solid fa-circle-check text-warning me-1"></i> GEO-COORDINATES VERIFIED</span>
+                    <div class="p-3.5 bg-white rounded-4 border shadow-xs text-start">
+                        <div class="d-flex align-items-center gap-3 mb-2">
+                            <div class="contact-info-icon icon-emerald" style="width:42px; height:42px; font-size:1.1rem;">
+                                <i class="fa-solid fa-building"></i>
                             </div>
-                            <span class="badge bg-success text-white" style="font-size:0.7rem;">GPS Live</span>
+                            <div>
+                                <strong class="text-dark small d-block">Corporate Office Address</strong>
+                                <small class="text-muted" style="font-size:0.75rem;">Khata No. 170, Bhairav Baba Road, Pasipur, Maharajganj, Azamgarh, UP - 276137</small>
+                            </div>
                         </div>
-                        
-                        <div class="mb-1">
-                            <small class="text-white-50 d-block fw-bold text-uppercase" style="font-size:0.7rem;">GPS LATITUDE & LONGITUDE</small>
-                            <span class="font-monospace fw-extrabold text-warning fs-6">26.273414, 83.118347</span>
-                        </div>
-
-                        <div class="mb-2">
-                            <small class="text-white-50 d-block fw-bold text-uppercase" style="font-size:0.7rem;">REGISTERED OFFICE LOCATION</small>
-                            <p class="small text-white mb-0 fw-semibold lh-tight" style="font-size:0.78rem;">
-                                Khata No. 170, Pasipur, Maharajganj, Azamgarh, UP - 276137
-                            </p>
-                        </div>
-
-                        <div>
-                            <a href="https://maps.google.com/?q=26.273414,83.118347" target="_blank" class="btn btn-sm btn-outline-light w-100 fw-bold py-1" style="font-size:0.78rem;">
-                                <i class="fa-solid fa-map-pin text-warning me-1"></i> View Live Google Maps Coordinates
-                            </a>
+                        <div class="d-flex align-items-center gap-3 border-top pt-2 mt-2">
+                            <div class="contact-info-icon icon-gold" style="width:42px; height:42px; font-size:1.1rem;">
+                                <i class="fa-solid fa-file-contract"></i>
+                            </div>
+                            <div>
+                                <strong class="text-dark small d-block">Registered Office Address</strong>
+                                <small class="text-muted" style="font-size:0.75rem;">Naubarar Dewara, Jadid 33/11, Maharajganj, Sagri, Azamgarh, UP - 276139</small>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -172,60 +164,61 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- IMAGE SHOWCASE GALLERY GRID (Samparna 4-Photo Showcase Layout) -->
+    <!-- REAL GROUND FIELD OPERATIONS GALLERY GRID -->
     <section class="section-padding bg-white border-top">
         <div class="container">
-            <div class="text-center mb-3.5" data-aos="fade-up">
-                <span class="eyebrow-tag mx-auto d-table">RURAL IMPACT GALLERY</span>
-                <h2 class="h3 fw-extrabold text-dark mb-1">Grassroots Financial Inclusion In Action</h2>
-                <div class="mx-auto" style="width: 40px; height: 3px; background: var(--primary); border-radius: var(--radius-pill);"></div>
+            <div class="text-center mb-4" data-aos="fade-up">
+                <span class="eyebrow-tag mx-auto d-table">AUTHENTIC FIELD OPERATIONS</span>
+                <h2 class="display-6 fw-extrabold text-dark mb-1">Grassroots Financial Inclusion In Action</h2>
+                <p class="text-muted small mb-0">Actual ground photos of Gurutma Financial Services doorstep JLG meetings & loan application desk in rural India.</p>
+                <div class="mx-auto mt-2" style="width: 50px; height: 3px; background: var(--primary); border-radius: var(--radius-pill);"></div>
             </div>
 
             <div class="row g-3" data-aos="fade-up">
-                <!-- Image 1 -->
+                <!-- Ground Photo 1: JLG Meeting -->
                 <div class="col-6 col-md-3">
-                    <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up">
-                        <img src="images/rural_jlg_meeting.png" class="w-100 object-fit-cover" style="height: 240px;" alt="Micro Finance JLG Group Meeting">
-                        <div class="card-body p-3 bg-canvas text-start">
-                            <span class="badge bg-success text-white mb-1" style="font-size:0.68rem;">Micro Finance</span>
+                    <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-canvas">
+                        <img src="images/field_jlg_meeting_1.jpg" class="w-100 object-fit-cover" style="height: 220px;" alt="Rural Women JLG Microfinance Group Meeting">
+                        <div class="card-body p-3 text-start">
+                            <span class="badge bg-success text-white mb-1" style="font-size:0.68rem;"><i class="fa-solid fa-people-group me-1"></i> Micro Finance</span>
                             <h4 class="h6 fw-bold text-dark mb-0">JLG Group Meetings</h4>
                             <small class="text-muted" style="font-size:0.75rem;">Doorstep credit for rural women</small>
                         </div>
                     </div>
                 </div>
 
-                <!-- Image 2 -->
+                <!-- Ground Photo 2: Field Officer Form Filling -->
                 <div class="col-6 col-md-3">
-                    <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up">
-                        <img src="images/rural_doorstep_agent.png" class="w-100 object-fit-cover" style="height: 240px;" alt="Doorstep Loan Form Filling">
-                        <div class="card-body p-3 bg-canvas text-start">
-                            <span class="badge bg-primary text-white mb-1" style="font-size:0.68rem;">Doorstep Service</span>
-                            <h4 class="h6 fw-bold text-dark mb-0">Field Verification</h4>
-                            <small class="text-muted" style="font-size:0.75rem;">DRA-certified field assistance</small>
+                    <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-canvas">
+                        <img src="images/field_loan_application_agent.jpg" class="w-100 object-fit-cover" style="height: 220px;" alt="Field Officer Filling Loan Form">
+                        <div class="card-body p-3 text-start">
+                            <span class="badge bg-primary text-white mb-1" style="font-size:0.68rem;"><i class="fa-solid fa-file-signature me-1"></i> Doorstep Desk</span>
+                            <h4 class="h6 fw-bold text-dark mb-0">Field Verification Desk</h4>
+                            <small class="text-muted" style="font-size:0.75rem;">Application & KYC documentation</small>
                         </div>
                     </div>
                 </div>
 
-                <!-- Image 3 -->
+                <!-- Ground Photo 3: Rural Beneficiaries -->
                 <div class="col-6 col-md-3">
-                    <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up">
-                        <img src="images/rural_dairy_microloan.png" class="w-100 object-fit-cover" style="height: 240px;" alt="Rural Micro Enterprise Dairy">
-                        <div class="card-body p-3 bg-canvas text-start">
-                            <span class="badge bg-warning text-dark mb-1" style="font-size:0.68rem;">Micro Enterprise</span>
-                            <h4 class="h6 fw-bold text-dark mb-0">Livelihood Loans</h4>
-                            <small class="text-muted" style="font-size:0.75rem;">Dairy & livestock self-reliance</small>
+                    <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-canvas">
+                        <img src="images/field_beneficiaries_village.jpg" class="w-100 object-fit-cover" style="height: 220px;" alt="Rural Women Beneficiaries">
+                        <div class="card-body p-3 text-start">
+                            <span class="badge bg-warning text-dark mb-1" style="font-size:0.68rem;"><i class="fa-solid fa-hand-holding-dollar me-1"></i> Women Enterprise</span>
+                            <h4 class="h6 fw-bold text-dark mb-0">Village Beneficiaries</h4>
+                            <small class="text-muted" style="font-size:0.75rem;">Financial empowerment & growth</small>
                         </div>
                     </div>
                 </div>
 
-                <!-- Image 4 -->
+                <!-- Ground Photo 4: JLG Group Meeting Under Shelter -->
                 <div class="col-6 col-md-3">
-                    <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up">
-                        <img src="images/rural_msme_workshop.png" class="w-100 object-fit-cover" style="height: 240px;" alt="MSME Workshop Credit">
-                        <div class="card-body p-3 bg-canvas text-start">
-                            <span class="badge bg-danger text-white mb-1" style="font-size:0.68rem;">MSME Loans</span>
-                            <h4 class="h6 fw-bold text-dark mb-0">Cottage Industries</h4>
-                            <small class="text-muted" style="font-size:0.75rem;">Small manufacturing growth</small>
+                    <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-canvas">
+                        <img src="images/field_jlg_meeting_2.jpg" class="w-100 object-fit-cover" style="height: 220px;" alt="JLG Group Disbursal Tracking">
+                        <div class="card-body p-3 text-start">
+                            <span class="badge bg-info text-dark mb-1" style="font-size:0.68rem;"><i class="fa-solid fa-book-open me-1"></i> Passbook Sourcing</span>
+                            <h4 class="h6 fw-bold text-dark mb-0">Group Credit Tracking</h4>
+                            <small class="text-muted" style="font-size:0.75rem;">Passbook & repayment logging</small>
                         </div>
                     </div>
                 </div>
@@ -407,13 +400,9 @@ include 'includes/header.php';
                         Submit your loan sourcing requirements, microfinance mandates, or credit portfolio details through our 256-bit encrypted filing desk.
                     </p>
 
-                    <div class="geo-tag-box p-4 mb-4">
-                        <div class="d-flex align-items-center gap-2 mb-2">
-                            <span class="geo-pulse-pin"></span>
-                            <span class="geo-tag-title"><i class="fa-solid fa-circle-check text-warning me-1"></i> GEO-COORDINATES VERIFIED</span>
-                        </div>
-                        <span class="font-monospace text-warning fw-bold fs-5 d-block mb-1">26.273414, 83.118347</span>
-                        <p class="small geo-tag-title mb-0 lh-relaxed">Pasipur, Maharajganj, Azamgarh, Uttar Pradesh - 276137</p>
+                    <div class="p-3.5 bg-white rounded-4 border shadow-xs mb-4">
+                        <h4 class="h6 fw-bold text-dark mb-1"><i class="fa-solid fa-building-flag text-warning me-2"></i> Corporate Office Address</h4>
+                        <p class="small text-muted mb-0 lh-relaxed">Khata No. 170, Bhairav Baba Road, Pasipur, Maharajganj, Azamgarh, Uttar Pradesh - 276137</p>
                     </div>
 
                     <div class="d-flex align-items-center gap-3">

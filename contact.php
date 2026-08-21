@@ -24,32 +24,28 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Top Geo-Tag & Direct Communication Strip -->
-    <section class="py-3 bg-canvas border-bottom">
+    <!-- Direct Communication & Office Desk Strip -->
+    <section class="py-4 bg-canvas border-bottom">
         <div class="container">
-            <div class="row g-3 align-items-center">
+            <div class="row g-4 align-items-center">
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h2 class="h4 fw-extrabold text-dark mb-1">Direct Communication & Registered Office</h2>
+                    <span class="eyebrow-tag">DIRECT DESKS</span>
+                    <h2 class="h3 fw-extrabold text-dark mb-2">Direct Communication & Office Desk Particulars</h2>
                     <p class="text-muted mb-0 small lh-relaxed">
                         Dedicated desks for banking credit teams, financial institutions, micro-entrepreneurs, and retail loan applicants.
                     </p>
                 </div>
                 <div class="col-lg-5">
-                    <div class="geo-tag-box text-start p-3">
-                        <div class="d-flex align-items-center justify-content-between mb-1.5 pb-1.5 border-bottom border-secondary">
-                            <div class="d-flex align-items-center gap-2">
-                                <span class="geo-pulse-pin"></span>
-                                <span class="geo-tag-title"><i class="fa-solid fa-circle-check text-warning me-1"></i> GEO-COORDINATES VERIFIED</span>
+                    <div class="p-3.5 bg-white rounded-4 border shadow-xs text-start">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="contact-info-icon icon-emerald" style="width:42px; height:42px; font-size:1.1rem;">
+                                <i class="fa-solid fa-headset"></i>
                             </div>
-                            <span class="badge bg-success text-white" style="font-size:0.7rem;">GPS Live</span>
+                            <div>
+                                <strong class="text-dark small d-block">Instant Support Line</strong>
+                                <a href="tel:+917390040402" class="fw-bold text-success text-decoration-none small">+91 73900 40402</a>
+                            </div>
                         </div>
-                        <div class="mb-1">
-                            <small class="text-white-50 d-block fw-bold text-uppercase" style="font-size:0.7rem;">GPS LATITUDE & LONGITUDE</small>
-                            <span class="font-monospace fw-extrabold text-warning fs-6">26.273414, 83.118347</span>
-                        </div>
-                        <p class="small text-white mb-0 fw-semibold lh-tight" style="font-size:0.78rem;">
-                            Khata No. 170, Pasipur, Maharajganj, Azamgarh, UP - 276137
-                        </p>
                     </div>
                 </div>
             </div>
@@ -76,15 +72,28 @@ include 'includes/header.php';
                     </div>
 
                     <div class="d-flex flex-column gap-3">
-                        <!-- Address Card -->
-                        <div class="p-3.5 bg-canvas rounded-4 border shadow-xs d-flex align-items-center gap-3">
-                            <div class="contact-info-icon icon-emerald">
-                                <i class="fa-solid fa-location-dot"></i>
+                        <!-- Corporate Office Address Card -->
+                        <div class="p-3.5 bg-canvas rounded-4 border shadow-xs d-flex align-items-center gap-3 border-start border-4 border-warning">
+                            <div class="contact-info-icon icon-gold">
+                                <i class="fa-solid fa-building-flag"></i>
                             </div>
                             <div>
-                                <h4 class="h6 fw-bold text-dark mb-1">Registered Office Address</h4>
+                                <h4 class="h6 fw-bold text-dark mb-1"><i class="fa-solid fa-location-crosshairs text-warning me-1"></i> Corporate Office Address</h4>
                                 <p class="small text-muted mb-0 lh-relaxed">
                                     Khata No. 170, Bhairav Baba Road, Pasipur, Maharajganj, Azamgarh, Uttar Pradesh - 276137
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Registered Office Address Card -->
+                        <div class="p-3.5 bg-canvas rounded-4 border shadow-xs d-flex align-items-center gap-3 border-start border-4 border-success">
+                            <div class="contact-info-icon icon-emerald">
+                                <i class="fa-solid fa-file-contract"></i>
+                            </div>
+                            <div>
+                                <h4 class="h6 fw-bold text-dark mb-1"><i class="fa-solid fa-stamp text-success me-1"></i> Registered Office Address</h4>
+                                <p class="small text-muted mb-0 lh-relaxed">
+                                    Naubarar Dewara, Jadid 33/11, Maharajganj, Nauwarar Dewara Jadid, Azamgarh, Sagri, Uttar Pradesh - 276139
                                 </p>
                             </div>
                         </div>
