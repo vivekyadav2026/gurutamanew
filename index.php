@@ -503,8 +503,8 @@ include 'includes/header.php';
                             </div>
 
                             <div class="col-12">
-                                <button type="submit" class="btn btn-pill-primary btn-lg w-100 shadow-md">
-                                    <i class="fa-solid fa-shield-halved me-2"></i> Submit Encrypted Enquiry (SLA &lt; 1 Business Day)
+                                <button type="submit" class="btn btn-pill-primary btn-lg w-100 shadow-md bg-success border-0 py-3">
+                                    <i class="fa-brands fa-whatsapp me-2 fs-4"></i> Submit & Send Enquiry to WhatsApp (+91 73900 40402)
                                 </button>
                             </div>
                         </form>

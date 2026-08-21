@@ -4,8 +4,37 @@ $pageDescription = "Connect with Gurutma Financial Services Pvt. Ltd. Submit ins
 $activePage = "contact";
 
 $submissionSuccess = false;
+$waUrl = '';
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $submissionSuccess = true;
+    $name = isset($_POST['name']) ? trim($_POST['name']) : '';
+    $institution = isset($_POST['institution']) ? trim($_POST['institution']) : '';
+    $phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
+    $email = isset($_POST['email']) ? trim($_POST['email']) : '';
+    $practice_area = isset($_POST['practice_area']) ? trim($_POST['practice_area']) : '';
+    $message = isset($_POST['message']) ? trim($_POST['message']) : '';
+
+    $waMessage = "🚨 *NEW LOAN ENQUIRY - GURUTMA FINANCIAL SERVICES*\n";
+    $waMessage .= "------------------------------------------\n";
+    $waMessage .= "👤 *Full Name:* " . $name . "\n";
+    if (!empty($institution)) {
+        $waMessage .= "🏢 *Institution / Firm:* " . $institution . "\n";
+    }
+    $waMessage .= "📞 *Phone Number:* " . $phone . "\n";
+    $waMessage .= "✉️ *Official Email:* " . $email . "\n";
+    $waMessage .= "📋 *Service Needed:* " . $practice_area . "\n";
+    $waMessage .= "💬 *Requirement Details:* " . $message . "\n";
+    $waMessage .= "------------------------------------------\n";
+    $waMessage .= "📌 *Form Code:* ENQ-06\n";
+    $waMessage .= "⏰ *Submitted At:* " . date('d-m-Y h:i A');
+
+    $targetWhatsappPhone = "917390040402";
+    $waUrl = "https://api.whatsapp.com/send?phone=" . $targetWhatsappPhone . "&text=" . urlencode($waMessage);
+
+    // Redirect user directly to WhatsApp chat with pre-filled structured message
+    header("Location: " . $waUrl);
+    exit;
 }
 
 include 'includes/header.php';
@@ -232,8 +261,8 @@ include 'includes/header.php';
 
                             <!-- Submit Button -->
                             <div class="col-12">
-                                <button type="submit" class="btn btn-pill-primary btn-lg w-100 shadow-md">
-                                    <i class="fa-solid fa-paper-plane me-2"></i> Submit Encrypted Enquiry (SLA &lt; 1 Business Day)
+                                <button type="submit" class="btn btn-pill-primary btn-lg w-100 shadow-md bg-success border-0 py-3">
+                                    <i class="fa-brands fa-whatsapp me-2 fs-4"></i> Submit & Send Enquiry to WhatsApp (+91 73900 40402)
                                 </button>
                             </div>
                         </form>
