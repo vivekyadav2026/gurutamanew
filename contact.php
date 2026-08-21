@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Contact & Client Sourcing Desk (ENQ-06) | Gurutma Financial Services Pvt. Ltd.";
-$pageDescription = "Connect with Gurutma Financial Services Pvt. Ltd. Submit institutional enquiries, loan sourcing mandates, and recovery portfolios via our 256-bit encrypted filing desk.";
+$pageTitle = "Contact Us & Enquiry Desk | Gurutma Financial Services Pvt. Ltd.";
+$pageDescription = "Connect with Gurutma Financial Services Pvt. Ltd. Submit enquiries, loan sourcing requirements, and business consultations directly through our online desk.";
 $activePage = "contact";
 
 $submissionSuccess = false;
@@ -26,7 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $waMessage .= "📋 *Service Needed:* " . $practice_area . "\n";
     $waMessage .= "💬 *Requirement Details:* " . $message . "\n";
     $waMessage .= "------------------------------------------\n";
-    $waMessage .= "📌 *Form Code:* ENQ-06\n";
     $waMessage .= "⏰ *Submitted At:* " . date('d-m-Y h:i A');
 
     $targetWhatsappPhone = "917390040402";
@@ -43,12 +42,12 @@ include 'includes/header.php';
     <!-- Page Header Hero -->
     <section class="bg-dark text-white py-4 position-relative overflow-hidden">
         <div class="container text-center py-2">
-            <span class="badge bg-accent text-white rounded-pill px-4 py-2 mb-2 fw-bold text-uppercase fs-7 shadow">
-                <i class="fa-solid fa-headset me-2"></i> Practice Code: ENQ-06
+            <span class="badge bg-primary text-white rounded-pill px-4 py-2 mb-2 fw-bold text-uppercase fs-7 shadow">
+                <i class="fa-solid fa-headset me-2"></i> Dedicated Support Desk
             </span>
-            <h1 class="display-5 fw-extrabold text-white mb-2">Client Enquiry & Sourcing Desk</h1>
+            <h1 class="display-5 fw-extrabold text-white mb-2">Contact Us & Enquiry Desk</h1>
             <p class="lead text-white-50 mx-auto small mb-0" style="max-width: 700px;">
-                Strict NDA protection & guaranteed callback response within 1 business day for all institutional mandates & loan requirements.
+                Guaranteed callback response within 1 business day for all loan requirements & business enquiries.
             </p>
         </div>
     </section>
@@ -92,11 +91,11 @@ include 'includes/header.php';
 
                     <!-- Image Showcase Card -->
                     <div class="card border-0 rounded-4 overflow-hidden shadow-sm mb-4">
-                        <img src="images/rural_consultancy.png" class="w-100 object-fit-cover" style="height: 200px;" alt="Financial Sourcing Advisor">
+                        <img src="images/urban_consultancy.jpg" class="w-100 object-fit-cover" style="height: 200px;" alt="Financial Consultancy Desk">
                         <div class="card-body p-3 bg-canvas">
-                            <span class="badge bg-success text-white mb-1"><i class="fa-solid fa-clock me-1"></i> Customer SLA Desk</span>
-                            <h4 class="h6 fw-bold text-dark mb-0">Guaranteed SLA: &lt; 1 Business Day</h4>
-                            <small class="text-muted" style="font-size:0.75rem;">100% NDA protection & direct response</small>
+                            <span class="badge bg-success text-white mb-1"><i class="fa-solid fa-clock me-1"></i> Customer SLA Support</span>
+                            <h4 class="h6 fw-bold text-dark mb-0">Fast Response SLA: &lt; 1 Business Day</h4>
+                            <small class="text-muted" style="font-size:0.75rem;">Direct response & expert guidance</small>
                         </div>
                     </div>
 

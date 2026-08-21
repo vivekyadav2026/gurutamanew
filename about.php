@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "About Us | Gurutma Financial Services Pvt. Ltd.";
-$pageDescription = "Learn about Gurutma Financial Services Pvt. Ltd., our vision, mission, core commitments, corporate registration details, and regulatory compliance standards.";
+$pageDescription = "Learn about Gurutma Financial Services Pvt. Ltd., our vision, mission, core commitments, leadership, and regional presence.";
 $activePage = "about";
 include 'includes/header.php';
 ?>
@@ -8,51 +8,23 @@ include 'includes/header.php';
     <!-- Page Header Hero -->
     <section class="bg-dark text-white py-5 position-relative overflow-hidden">
         <div class="container text-center py-2">
-            <span class="badge bg-primary text-white rounded-pill px-4 py-2 mb-3 fw-bold text-uppercase fs-7 shadow">
+            <span class="badge bg-success bg-opacity-20 text-success border border-success rounded-pill px-4 py-2 mb-3 fw-bold text-uppercase fs-7 shadow-sm">
                 <i class="fa-solid fa-building-columns me-2"></i> Corporate Profile
             </span>
             <h1 class="display-5 fw-extrabold text-white mb-2">About Gurutma Financial Services</h1>
             <p class="lead text-white-50 mx-auto small mb-0" style="max-width: 700px;">
-                Providing reliable, transparent, and customer-centric financial solutions to individuals, entrepreneurs, and businesses across rural & regional India.
+                Providing reliable, transparent, and customer-centric financial solutions to individuals, entrepreneurs, and businesses.
             </p>
         </div>
     </section>
 
-    <!-- Regional Coverage & Governance Overview -->
-    <section class="py-4 bg-canvas border-bottom">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-7 text-center text-lg-start">
-                    <span class="eyebrow-tag">GRASSROOTS CREDIT</span>
-                    <h2 class="h3 fw-extrabold text-dark mb-2">Grassroots Financial Inclusion & Corporate Governance</h2>
-                    <p class="text-muted mb-0 small lh-relaxed">
-                        Headquartered in Azamgarh, Uttar Pradesh, Gurutma Financial Services Pvt. Ltd. provides doorstep microfinance and business sourcing across <strong>UP, MP, Bihar, Jharkhand & Chhattisgarh</strong>.
-                    </p>
-                </div>
-                <div class="col-lg-5">
-                    <div class="p-3.5 bg-white rounded-4 border shadow-xs text-start">
-                        <div class="d-flex align-items-center gap-3">
-                            <div class="contact-info-icon icon-emerald" style="width:42px; height:42px; font-size:1.1rem;">
-                                <i class="fa-solid fa-map-location-dot"></i>
-                            </div>
-                            <div>
-                                <strong class="text-dark small d-block">Regional Footprint</strong>
-                                <small class="text-muted" style="font-size:0.75rem;">Serving UP, MP, Bihar, Jharkhand & Chhattisgarh</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Company Overview & Official Statement (Image-Rich Layout) -->
+    <!-- Company Overview & Official Statement -->
     <section class="section-padding bg-white">
         <div class="container">
             <div class="row g-4 g-lg-5 align-items-center">
-                <!-- Left Column: Corporate Statement + Badges -->
+                <!-- Left Column: Corporate Statement -->
                 <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
-                    <span class="eyebrow-tag mx-auto mx-lg-0 d-table d-lg-inline-block">CORPORATE PROFILE</span>
+                    <span class="badge bg-success bg-opacity-10 text-success border border-success px-3 py-1.5 fw-bold mb-2">CORPORATE PROFILE</span>
                     <h2 class="display-6 fw-extrabold text-dark mb-3">Gurutma Financial Services Pvt. Ltd.</h2>
                     
                     <div class="p-4 bg-canvas rounded-4 border-start border-primary border-4 shadow-sm mb-4 text-start">
@@ -62,7 +34,7 @@ include 'includes/header.php';
                     </div>
 
                     <p class="text-muted lh-lg mb-4 text-start">
-                        Founded with a steadfast commitment to financial inclusion and corporate integrity, Gurutma operates across Joint Liability Group (JLG) microfinance, retail loan sourcing, tele-collections, NPA recovery, portfolio recovery strategy, and doorstep field verification.
+                        Founded with a steadfast commitment to financial inclusion and corporate integrity, Gurutma operates across Joint Liability Group (JLG) microfinance, retail loan sourcing, business loans, personal credit, home loans, vehicle loans, and MSME credit solutions.
                     </p>
 
                     <div class="row g-3 text-start mb-3">
@@ -80,11 +52,11 @@ include 'includes/header.php';
                         <div class="col-sm-6">
                             <div class="p-3 bg-canvas rounded-3 border d-flex align-items-center gap-3">
                                 <div class="contact-info-icon icon-gold" style="width:42px; height:42px; font-size:1.1rem;">
-                                    <i class="fa-solid fa-lock"></i>
+                                    <i class="fa-solid fa-headset"></i>
                                 </div>
                                 <div>
-                                    <h4 class="small fw-bold mb-0 text-dark">ISO 27001 ISMS</h4>
-                                    <small class="text-muted" style="font-size:0.75rem;">Information Security</small>
+                                    <h4 class="small fw-bold mb-0 text-dark">Dedicated Desk</h4>
+                                    <small class="text-muted" style="font-size:0.75rem;">Fast SLA Response</small>
                                 </div>
                             </div>
                         </div>
@@ -96,8 +68,7 @@ include 'includes/header.php';
                     <div class="p-4 p-md-5 bg-canvas rounded-4 shadow-md border text-start">
                         <div class="d-flex align-items-center justify-content-between mb-4 pb-3 border-bottom">
                             <div>
-                                <span class="badge bg-primary text-white mb-1">Legal Particulars</span>
-                                <h3 class="h4 fw-bold text-dark mb-0"><i class="fa-solid fa-file-contract text-primary me-2"></i> Corporate Registration</h3>
+                                <h3 class="h4 fw-bold text-dark mb-0"><i class="fa-solid fa-file-contract text-primary me-2"></i> Corporate Particulars</h3>
                             </div>
                             <span class="badge bg-success px-3 py-1.5 fw-bold">Verified Firm</span>
                         </div>
@@ -112,16 +83,8 @@ include 'includes/header.php';
                                 <strong class="text-dark small">Gurutma</strong>
                             </li>
                             <li class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center pb-2 border-bottom">
-                                <span class="text-muted fw-semibold small"><i class="fa-solid fa-calendar me-2 text-primary"></i> Registration Date</span>
-                                <strong class="text-dark small">2 June 2026</strong>
-                            </li>
-                            <li class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center pb-2 border-bottom">
                                 <span class="text-muted fw-semibold small"><i class="fa-solid fa-receipt me-2 text-primary"></i> GSTIN</span>
                                 <strong class="text-dark font-monospace small">09AANCG1128P1Z3</strong>
-                            </li>
-                            <li class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center pb-2 border-bottom">
-                                <span class="text-muted fw-semibold small"><i class="fa-solid fa-clock me-2 text-primary"></i> Response SLA</span>
-                                <span class="badge bg-success text-white">Less than 1 Business Day</span>
                             </li>
                             <li class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center pb-2 border-bottom">
                                 <span class="text-muted fw-semibold small"><i class="fa-solid fa-business-time me-2 text-primary"></i> Working Hours</span>
@@ -142,12 +105,12 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- PHOTO SHOWCASE COLLAGE (Real Ground Operations) -->
+    <!-- PHOTO SHOWCASE COLLAGE (Real Field Operations) -->
     <section class="section-padding bg-canvas border-top">
         <div class="container text-center">
             <span class="eyebrow-tag mx-auto d-table">REAL FIELD OPERATIONS</span>
             <h2 class="h3 fw-extrabold text-dark mb-1">Doorstep Financial Empowerment In Action</h2>
-            <p class="text-muted small mb-0">Ground photos of Gurutma Financial Services JLG meetings, borrower KYC verification & rural group credit desk.</p>
+            <p class="text-muted small mb-0">Ground photos of Gurutma Financial Services JLG meetings, borrower KYC verification & credit desk.</p>
             <div class="mx-auto mb-4 mt-2" style="width: 50px; height: 3px; background: var(--primary); border-radius: var(--radius-pill);"></div>
 
             <div class="row g-3 justify-content-center" data-aos="fade-up">
@@ -198,8 +161,8 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Vision, Mission & Commitment Statements -->
-    <section class="section-padding bg-white border-top">
+    <!-- Guiding Principles (Vision, Mission & Commitment Statements) -->
+    <section class="section-padding bg-white border-top" id="guiding-principles">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
                 <span class="eyebrow-tag mx-auto d-table">GUIDING PRINCIPLES</span>
@@ -256,14 +219,57 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Call to Action Strip -->
-    <section class="py-4 bg-canvas border-top text-center">
+    <!-- Regional Footprints (Placed at the End of About Page) -->
+    <section class="section-padding bg-canvas border-top text-center" id="regional-footprints">
         <div class="container">
-            <h3 class="h4 fw-extrabold text-dark mb-2">Ready to Partner or Apply for Sourcing?</h3>
-            <p class="text-muted small mb-3">File your requirement via our 256-bit encrypted intake desk (ENQ-06).</p>
-            <a href="contact.php#case-filing" class="btn btn-pill-primary btn-md fw-bold">
-                <i class="fa-solid fa-file-shield me-2"></i> Access Filing Desk (ENQ-06)
-            </a>
+            <span class="eyebrow-tag mx-auto d-table">5 STATES NETWORK</span>
+            <h2 class="display-6 fw-extrabold text-dark mb-2">Our Regional Footprints</h2>
+            <p class="text-muted mx-auto small mb-4" style="max-width: 650px;">
+                Providing transparent financial solutions and credit sourcing operations across <strong>Uttar Pradesh, Madhya Pradesh, Bihar, Jharkhand & Chhattisgarh</strong>.
+            </p>
+
+            <div class="row g-3 justify-content-center mb-4">
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="p-3 bg-white rounded-4 border shadow-xs text-center fw-bold text-dark small">
+                        <i class="fa-solid fa-map-pin text-danger me-1"></i> Uttar Pradesh
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="p-3 bg-white rounded-4 border shadow-xs text-center fw-bold text-dark small">
+                        <i class="fa-solid fa-map-pin text-primary me-1"></i> Madhya Pradesh
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="p-3 bg-white rounded-4 border shadow-xs text-center fw-bold text-dark small">
+                        <i class="fa-solid fa-map-pin text-warning me-1"></i> Bihar
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="p-3 bg-white rounded-4 border shadow-xs text-center fw-bold text-dark small">
+                        <i class="fa-solid fa-map-pin text-success me-1"></i> Jharkhand
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="p-3 bg-white rounded-4 border shadow-xs text-center fw-bold text-dark small">
+                        <i class="fa-solid fa-map-pin text-info me-1"></i> Chhattisgarh
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center text-start">
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded-4 border shadow-sm">
+                        <h4 class="h6 fw-bold text-dark mb-2"><i class="fa-solid fa-building-flag text-warning me-2"></i> Corporate Office Address</h4>
+                        <p class="small text-muted mb-0 lh-relaxed">Khata No. 170, Bhairav Baba Road, Pasipur, Maharajganj, Azamgarh, Uttar Pradesh - 276137</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded-4 border shadow-sm">
+                        <h4 class="h6 fw-bold text-dark mb-2"><i class="fa-solid fa-stamp text-success me-2"></i> Registered Office Address</h4>
+                        <p class="small text-muted mb-0 lh-relaxed">Naubarar Dewara, Jadid 33/11, Maharajganj, Nauwarar Dewara Jadid, Azamgarh, Sagri, Uttar Pradesh - 276139</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

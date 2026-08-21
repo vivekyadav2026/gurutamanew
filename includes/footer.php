@@ -5,10 +5,10 @@
                 <!-- Column 1: Company Profile & Badges -->
                 <div class="col-lg-4 col-md-6 pe-lg-5 text-start">
                     <a class="navbar-brand-custom mb-3 d-inline-flex align-items-center gap-2.5 bg-white p-2 px-3 rounded-3 shadow-sm text-decoration-none" href="index.php">
-                        <img src="images/gurutma_logo.jpg" alt="Gurutma Logo" style="height: 46px; width: auto; max-width: 170px; object-fit: contain;">
+                        <img src="images/gurutma_logo.jpg" alt="Gurutma Logo" style="height: 56px; width: auto; max-width: 220px; object-fit: contain;">
                         <div class="brand-text-block border-start border-2 border-success ps-2 text-start">
-                            <span class="fw-extrabold tracking-tight d-block lh-1 font-heading" style="font-size: 1.2rem; color: #046A38;">GURUTMA</span>
-                            <small class="text-success fw-bold text-uppercase d-block mt-0.5" style="font-size: 0.6rem; letter-spacing: 1px;">Financial Services Pvt. Ltd.</small>
+                            <span class="fw-extrabold tracking-tight d-block lh-1 font-heading" style="font-size: 1.35rem; color: #046A38;">GURUTMA</span>
+                            <small class="text-success fw-bold text-uppercase d-block mt-0.5" style="font-size: 0.65rem; letter-spacing: 1px;">Financial Services Pvt. Ltd.</small>
                         </div>
                     </a>
                     <p class="mb-4 text-white-50 lh-lg" style="font-size: 0.9rem;">
@@ -16,23 +16,21 @@
                     </p>
                     <div class="d-flex flex-column align-items-start gap-2 mb-4">
                         <span class="d-block small text-white-50"><i class="fa-solid fa-file-contract text-primary me-2"></i> <strong>GSTIN:</strong> 09AANCG1128P1Z3</span>
-                        <span class="d-block small text-white-50"><i class="fa-solid fa-calendar-check text-primary me-2"></i> <strong>Reg. Date:</strong> 2 June 2026</span>
                         <span class="d-block small text-white-50"><i class="fa-solid fa-shield-halved text-success me-2"></i> <strong>Compliance:</strong> RBI Fair Practices Code</span>
-                        <span class="d-block small text-white-50"><i class="fa-solid fa-lock text-warning me-2"></i> <strong>Security:</strong> ISO 27001 & 256-Bit Encrypted</span>
-                        <span class="d-block small text-white-50"><i class="fa-solid fa-user-shield text-info me-2"></i> <strong>Field Network:</strong> DRA-Certified Agents</span>
                     </div>
                 </div>
 
                 <!-- Column 2: Service Practice Areas -->
                 <div class="col-lg-3 col-md-6 text-start">
-                    <h5 class="fw-bold text-white mb-3">Service Practices</h5>
+                    <h5 class="fw-bold text-white mb-3">Our Loan Solutions</h5>
                     <ul class="list-unstyled d-flex flex-column align-items-start gap-2 mt-3" style="font-size: 0.88rem;">
-                        <li><a href="services.php#ls-01" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Loan Sourcing (LS-01)</a></li>
-                        <li><a href="services.php#cs-02" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Tele-Collection Services (CS-02)</a></li>
-                        <li><a href="services.php#npa-03" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> NPA Collection & Recovery (NPA-03)</a></li>
-                        <li><a href="services.php#frs-04" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Financial Recovery Solutions (FRS-04)</a></li>
-                        <li><a href="services.php#fc-05" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Field Collection Services (FC-05)</a></li>
-                        <li><a href="contact.php#case-filing" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Client Enquiry Desk (ENQ-06)</a></li>
+                        <li><a href="services.php#micro-finance" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Micro Finance (JLG Model)</a></li>
+                        <li><a href="services.php#business-loan" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Business Loan (Retail & Trading)</a></li>
+                        <li><a href="services.php#personal-loan" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Personal Loan</a></li>
+                        <li><a href="services.php#consultancy" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Financial Consultancy</a></li>
+                        <li><a href="services.php#vehicle-loan" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Vehicle Loan (Tractors & Loaders)</a></li>
+                        <li><a href="services.php#home-loan" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> Home Loan</a></li>
+                        <li><a href="services.php#msme-loan" class="text-white-50 text-decoration-none hover-text-white"><i class="fa-solid fa-chevron-right text-primary me-2" style="font-size: 0.75rem;"></i> MSME Loan (Engineering & Industry)</a></li>
                         <li class="mt-2"><a href="compliance.php" class="text-success fw-bold text-decoration-none"><i class="fa-solid fa-shield-halved me-1"></i> Regulatory Compliance</a></li>
                     </ul>
                 </div>

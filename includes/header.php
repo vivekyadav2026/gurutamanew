@@ -32,9 +32,7 @@ if (!defined('COMPANY_FULL_NAME')) {
                 <div class="d-flex align-items-center gap-3 flex-shrink-0 text-white-50 small">
                     <span><i class="fa-solid fa-shield-halved text-success me-1"></i> RBI Fair Practices Compliant</span>
                     <span class="opacity-25">|</span>
-                    <span><i class="fa-solid fa-lock text-warning me-1"></i> ISO 27001 Security</span>
-                    <span class="opacity-25">|</span>
-                    <span><i class="fa-solid fa-user-check text-info me-1"></i> DRA-Certified Network</span>
+                    <span><i class="fa-solid fa-headset text-warning me-1"></i> Dedicated Financial Support</span>
                 </div>
                 
                 <!-- Middle Side: News & Regulatory Ticker -->
@@ -44,11 +42,11 @@ if (!defined('COMPANY_FULL_NAME')) {
                     </div>
                     <div class="news-ticker-content">
                         <div class="news-ticker-scroll">
-                            <span>Gurutma Financial Services Pvt. Ltd. | Reg. Date: 2 June 2026 | GSTIN: 09AANCG1128P1Z3</span>
+                            <span>Gurutma Financial Services Pvt. Ltd. | GSTIN: 09AANCG1128P1Z3</span>
                             <span class="ticker-separator"></span>
-                            <span>Loan Sourcing (LS-01), Collection Services (CS-02), NPA Recovery (NPA-03) & Field Collection (FC-05)</span>
+                            <span>Micro Finance, Business Loans, Personal Loans, Home Loans, Vehicle Loans & MSME Credit Sourcing</span>
                             <span class="ticker-separator"></span>
-                            <span>Guaranteed SLA: Callback within 1 Business Day under strict NDA & 256-Bit Encrypted Filing</span>
+                            <span>Prompt Service Response & Customer Sourcing Across UP, MP, Bihar, Jharkhand & Chhattisgarh</span>
                         </div>
                     </div>
                 </div>
@@ -85,7 +83,7 @@ if (!defined('COMPANY_FULL_NAME')) {
                         <div class="news-ticker-scroll" style="animation-duration: 22s;">
                             <span>Gurutma Financial Services Pvt. Ltd. | GSTIN: 09AANCG1128P1Z3</span>
                             <span class="ticker-separator"></span>
-                            <span>Loan Sourcing, Collections, NPA Recovery & Field Audit Services</span>
+                            <span>Loan Sourcing, Micro Finance, Business & MSME Financial Solutions</span>
                         </div>
                     </div>
                 </div>
@@ -94,13 +92,13 @@ if (!defined('COMPANY_FULL_NAME')) {
     </div>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top py-2">
         <div class="container-fluid px-3 px-lg-4">
-            <a class="navbar-brand-custom d-flex align-items-center gap-2.5 text-decoration-none" href="index.php">
-                <img src="images/gurutma_logo.jpg" alt="Gurutma Logo" class="brand-logo-img" style="height: 52px; width: auto; max-width: 200px; object-fit: contain;">
-                <div class="brand-text-block border-start border-2 border-success ps-2.5 ms-1 text-start">
-                    <span class="fw-extrabold tracking-tight d-block lh-1 font-heading" style="font-size: 1.35rem; color: #046A38;">GURUTMA</span>
-                    <small class="text-success fw-bold text-uppercase d-block mt-0.5" style="font-size: 0.65rem; letter-spacing: 1px;">Financial Services Pvt. Ltd.</small>
+            <a class="navbar-brand-custom d-flex align-items-center gap-3 text-decoration-none" href="index.php">
+                <img src="images/gurutma_logo.jpg" alt="Gurutma Logo" class="brand-logo-img" style="height: 68px; width: auto; max-width: 280px; object-fit: contain;">
+                <div class="brand-text-block border-start border-2 border-success ps-3 ms-1 text-start">
+                    <span class="fw-extrabold tracking-tight d-block lh-1 font-heading" style="font-size: 1.55rem; color: #046A38;">GURUTMA</span>
+                    <small class="text-success fw-bold text-uppercase d-block mt-1" style="font-size: 0.72rem; letter-spacing: 1px;">Financial Services Pvt. Ltd.</small>
                 </div>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,15 +108,11 @@ if (!defined('COMPANY_FULL_NAME')) {
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'about') ? 'active' : ''; ?>" href="about.php">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'services') ? 'active' : ''; ?>" href="services.php">Practice Areas</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'coverage') ? 'active' : ''; ?>" href="services.php">Geographical Coverage</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'compliance') ? 'active' : ''; ?>" href="compliance.php">Regulatory Compliance</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'team') ? 'active' : ''; ?>" href="team.php">Field Network</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'contact') ? 'active' : ''; ?>" href="contact.php">Contact & SLA Desk</a></li>
-                    <li class="nav-item ms-lg-2 mt-3 mt-lg-0">
-                        <a href="contact.php#case-filing" class="btn btn-pill btn-pill-accent btn-navbar shadow-sm">
-                            <i class="fa-solid fa-file-shield me-2"></i> Case Filing Desk
-                        </a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'careers') ? 'active' : ''; ?>" href="careers.php">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'management') ? 'active' : ''; ?>" href="management.php">Management</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo (isset($activePage) && $activePage === 'contact') ? 'active' : ''; ?>" href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>

@@ -226,131 +226,131 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- OUR SERVICES SECTION (7 Visual Cards) -->
+    <!-- OUR DEDICATED LOAN PRODUCTS SECTION -->
     <section class="section-padding bg-canvas border-top text-start" id="our-services">
         <div class="container">
             <div class="text-center mb-4" data-aos="fade-up">
-                <span class="eyebrow-tag mx-auto d-table">OUR 7 LOAN PRODUCTS</span>
-                <h2 class="display-6 fw-extrabold text-dark mb-1">Comprehensive Credit Solutions For Your Financial Growth</h2>
+                <span class="eyebrow-tag mx-auto d-table">DEDICATED CREDIT SOLUTIONS</span>
+                <h2 class="display-6 fw-extrabold text-dark mb-1">Our Dedicated Loan Products & Sourcing Solutions</h2>
                 <p class="text-muted small mb-0">Micro Finance, Business Loans, Personal Loans, Vehicle Loans, Home Loans & MSME Loans.</p>
                 <div class="mx-auto mt-2" style="width: 50px; height: 3px; background: var(--primary); border-radius: var(--radius-pill);"></div>
             </div>
 
             <div class="row g-4">
-                <!-- 1. Micro Finance -->
+                <!-- Micro Finance -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up">
                     <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-white">
                         <div class="position-relative" style="height:190px;">
-                            <img src="images/rural_jlg_meeting.png" class="w-100 h-100 object-fit-cover" alt="Micro Finance JLG">
+                            <img src="images/field_jlg_meeting_1.jpg" class="w-100 h-100 object-fit-cover" alt="Micro Finance JLG">
                             <span class="badge bg-success position-absolute top-0 end-0 m-3 px-3 py-1.5 fw-bold shadow-sm">Micro Finance</span>
                         </div>
                         <div class="card-body p-4 text-start">
-                            <h3 class="h4 fw-bold text-dark mb-2">1. Micro Finance</h3>
+                            <h3 class="h4 fw-bold text-dark mb-2">Micro Finance</h3>
                             <p class="text-muted small lh-relaxed mb-3">
-                                Joint Liability Group (JLG) micro-loans empowering rural women self-help groups for livestock rearing & income generation.
+                                Joint Liability Group (JLG) micro-loans empowering self-help groups for income generation & economic independence.
                             </p>
                             <a href="contact.php?practice=MicroFinance#case-filing" class="btn btn-pill-outline btn-sm fw-bold w-100">Apply Micro Finance <i class="fa-solid fa-arrow-right me-1"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- 2. Business Loan -->
+                <!-- Business Loan (Urban Business Focus) -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-white">
                         <div class="position-relative" style="height:190px;">
-                            <img src="images/banner_business_slider.png" class="w-100 h-100 object-fit-cover" alt="Business Loan">
+                            <img src="images/urban_business_loan.jpg" class="w-100 h-100 object-fit-cover" alt="Urban Business Loan">
                             <span class="badge bg-primary position-absolute top-0 end-0 m-3 px-3 py-1.5 fw-bold shadow-sm">Business Loan</span>
                         </div>
                         <div class="card-body p-4 text-start">
-                            <h3 class="h4 fw-bold text-dark mb-2">2. Business Loan</h3>
+                            <h3 class="h4 fw-bold text-dark mb-2">Business Loan</h3>
                             <p class="text-muted small lh-relaxed mb-3">
-                                Working capital and credit expansion for rural merchants, shop owners, and small service enterprises.
+                                Working capital and credit expansion for urban traders, retail shop owners, commercial enterprises, and service hubs.
                             </p>
                             <a href="contact.php?practice=BusinessLoan#case-filing" class="btn btn-pill-outline btn-sm fw-bold w-100">Apply Business Loan <i class="fa-solid fa-arrow-right me-1"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- 3. Personal Loan -->
+                <!-- Personal Loan (Urban Personal Focus) -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
                     <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-white">
                         <div class="position-relative" style="height:190px;">
-                            <img src="images/rural_personal_loan.png" class="w-100 h-100 object-fit-cover" alt="Personal Loan">
+                            <img src="images/urban_personal_loan.jpg" class="w-100 h-100 object-fit-cover" alt="Urban Personal Loan">
                             <span class="badge bg-info text-dark position-absolute top-0 end-0 m-3 px-3 py-1.5 fw-bold shadow-sm">Personal Loan</span>
                         </div>
                         <div class="card-body p-4 text-start">
-                            <h3 class="h4 fw-bold text-dark mb-2">3. Personal Loan</h3>
+                            <h3 class="h4 fw-bold text-dark mb-2">Personal Loan</h3>
                             <p class="text-muted small lh-relaxed mb-3">
-                                Collateral-free personal credit for medical emergencies, children's education, and domestic requirements.
+                                Flexible personal credit for urban professionals, medical needs, higher education, and domestic requirements.
                             </p>
                             <a href="contact.php?practice=PersonalLoan#case-filing" class="btn btn-pill-outline btn-sm fw-bold w-100">Apply Personal Loan <i class="fa-solid fa-arrow-right me-1"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- 4. Financial Consultancy & Business Sourcing -->
+                <!-- Financial Consultancy (Urban Corporate Focus) -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-white">
                         <div class="position-relative" style="height:190px;">
-                            <img src="images/rural_consultancy.png" class="w-100 h-100 object-fit-cover" alt="Financial Sourcing">
-                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 px-3 py-1.5 fw-bold shadow-sm">BC Sourcing</span>
+                            <img src="images/urban_consultancy.jpg" class="w-100 h-100 object-fit-cover" alt="Urban Financial Consultancy">
+                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 px-3 py-1.5 fw-bold shadow-sm">Financial Advisory</span>
                         </div>
                         <div class="card-body p-4 text-start">
-                            <h3 class="h4 fw-bold text-dark mb-2">4. Financial Consultancy & Sourcing</h3>
+                            <h3 class="h4 fw-bold text-dark mb-2">Financial Consultancy & Sourcing</h3>
                             <p class="text-muted small lh-relaxed mb-3">
-                                Business Correspondent (BC) sourcing linking banks & NBFCs with pre-qualified borrower files and field audits.
+                                Strategic credit sourcing and financial advisory linking institutional lenders with verified loan requirements.
                             </p>
                             <a href="contact.php?practice=Sourcing#case-filing" class="btn btn-pill-outline btn-sm fw-bold w-100">Consult Sourcing <i class="fa-solid fa-arrow-right me-1"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- 5. Vehicle Loan -->
+                <!-- Vehicle Loan -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
                     <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-white">
                         <div class="position-relative" style="height:190px;">
-                            <img src="images/rural_tractor_loan.png" class="w-100 h-100 object-fit-cover" alt="Vehicle Loan Tractor">
+                            <img src="images/rural_tractor_loan.png" class="w-100 h-100 object-fit-cover" alt="Vehicle Loan">
                             <span class="badge bg-danger position-absolute top-0 end-0 m-3 px-3 py-1.5 fw-bold shadow-sm">Vehicle Loan</span>
                         </div>
                         <div class="card-body p-4 text-start">
-                            <h3 class="h4 fw-bold text-dark mb-2">5. Vehicle Loan</h3>
+                            <h3 class="h4 fw-bold text-dark mb-2">Vehicle Loan</h3>
                             <p class="text-muted small lh-relaxed mb-3">
-                                Affordable vehicle financing for tractors, commercial loaders, two-wheelers, and transport vehicles.
+                                Commercial loader, tractor, transport vehicle, and personal mobility vehicle financing with easy EMIs.
                             </p>
                             <a href="contact.php?practice=VehicleLoan#case-filing" class="btn btn-pill-outline btn-sm fw-bold w-100">Apply Vehicle Loan <i class="fa-solid fa-arrow-right me-1"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- 6. Home Loan -->
+                <!-- Home Loan (Urban Home Focus) -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm transition-all hover-translate-up bg-white">
                         <div class="position-relative" style="height:190px;">
-                            <img src="images/rural_housing_loan.png" class="w-100 h-100 object-fit-cover" alt="Home Loan Housing">
+                            <img src="images/urban_home_loan.jpg" class="w-100 h-100 object-fit-cover" alt="Urban Home Loan">
                             <span class="badge bg-success position-absolute top-0 end-0 m-3 px-3 py-1.5 fw-bold shadow-sm">Home Loan</span>
                         </div>
                         <div class="card-body p-4 text-start">
-                            <h3 class="h4 fw-bold text-dark mb-2">6. Home Loan</h3>
+                            <h3 class="h4 fw-bold text-dark mb-2">Home Loan</h3>
                             <p class="text-muted small lh-relaxed mb-3">
-                                Long-term housing credit for rural house construction, structural renovation, and roof upgrades.
+                                Long-term housing loans for urban apartment purchases, residential home construction, and home extension.
                             </p>
                             <a href="contact.php?practice=HomeLoan#case-filing" class="btn btn-pill-outline btn-sm fw-bold w-100">Apply Home Loan <i class="fa-solid fa-arrow-right me-1"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- 7. MSME Loan -->
+                <!-- MSME Loan (Engineering Focus) -->
                 <div class="col-12" data-aos="fade-up" data-aos-delay="350">
                     <div class="card border-0 rounded-4 overflow-hidden shadow-lg bg-dark text-white">
                         <div class="row g-0 align-items-center">
                             <div class="col-md-5" style="height:260px;">
-                                <img src="images/rural_msme_workshop.png" class="w-100 h-100 object-fit-cover" alt="MSME Workshop Loan">
+                                <img src="images/msme_engineering.jpg" class="w-100 h-100 object-fit-cover" alt="MSME Engineering Machinery Unit">
                             </div>
                             <div class="col-md-7 p-4 p-md-5 text-start">
-                                <span class="badge bg-accent text-white px-3 py-1.5 fw-bold mb-2">Service 7</span>
-                                <h3 class="display-6 fw-extrabold text-white mb-2">7. MSME Loans (Micro, Small & Medium)</h3>
+                                <span class="badge bg-accent text-white px-3 py-1.5 fw-bold mb-2">Engineering & Industrial Credit</span>
+                                <h3 class="display-6 fw-extrabold text-white mb-2">MSME Loans (Engineering & Manufacturing)</h3>
                                 <p class="text-white-50 mb-3 small lh-relaxed">
-                                    Financing for cottage industries, agro-processing units, local manufacturing plants, and small enterprises across UP, MP, Bihar, Jharkhand & Chhattisgarh.
+                                    Specialized credit solutions for precision engineering workshops, industrial manufacturing plants, equipment purchase, and manufacturing units.
                                 </p>
                                 <a href="contact.php?practice=MSME#case-filing" class="btn btn-pill-accent btn-md fw-bold px-4">
                                     <i class="fa-solid fa-paper-plane me-1"></i> Apply MSME Loan
@@ -395,10 +395,10 @@ include 'includes/header.php';
         <div class="container">
             <div class="row g-4 g-lg-5 align-items-center">
                 <div class="col-lg-5 pe-lg-4 text-start" data-aos="fade-right">
-                    <span class="eyebrow-tag">File Code: ENQ-06</span>
-                    <h2 class="fw-extrabold text-dark mb-3">Client Case Filing & Sourcing Desk</h2>
+                    <span class="eyebrow-tag">CONNECT WITH US</span>
+                    <h2 class="fw-extrabold text-dark mb-3">Get In Touch With Our Team</h2>
                     <p class="text-muted mb-3 lh-lg">
-                        Submit your loan sourcing requirements, microfinance mandates, or credit portfolio details through our 256-bit encrypted filing desk.
+                        Submit your loan sourcing requirements, credit consultation, or financial enquiries directly through our online desk.
                     </p>
 
                     <div class="p-3.5 bg-white rounded-4 border shadow-xs mb-4">
@@ -420,10 +420,10 @@ include 'includes/header.php';
                     <div class="contact-form-card text-start">
                         <div class="d-flex align-items-center justify-content-between mb-3 pb-3 border-bottom">
                             <div>
-                                <span class="badge bg-primary text-white mb-1">Code: ENQ-06</span>
-                                <h3 class="h4 fw-bold text-dark mb-0"><i class="fa-solid fa-file-shield text-success me-2"></i> Encrypted Sourcing Desk</h3>
+                                <span class="badge bg-primary text-white mb-1">ONLINE INQUIRY</span>
+                                <h3 class="h4 fw-bold text-dark mb-0"><i class="fa-solid fa-envelope-open-text text-success me-2"></i> Contact & Enquiry Desk</h3>
                             </div>
-                            <span class="badge bg-success bg-opacity-10 text-success border border-success px-3 py-1.5 fw-bold">256-Bit SSL Encrypted</span>
+                            <span class="badge bg-success bg-opacity-10 text-success border border-success px-3 py-1.5 fw-bold"><i class="fa-solid fa-headset me-1"></i> Fast SLA Response</span>
                         </div>
                         
                         <?php if (isset($_GET['status']) && $_GET['status'] === 'success'): ?>
