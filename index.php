@@ -42,14 +42,13 @@ include 'includes/header.php';
                     <div class="row justify-content-center">
                         <div class="col-lg-10 col-xl-8">
                             <span class="badge bg-success text-white rounded-pill px-3 py-1.5 mb-2 fw-bold text-uppercase fs-7 shadow">
-                                <i class="fa-solid fa-people-group me-1"></i> माइक्रो फाइनेंस (JLG समूह ऋण)
+                                <i class="fa-solid fa-people-group me-1"></i> Micro Finance & JLG Model
                             </span>
-                            <h1 class="display-5 text-white fw-extrabold mb-1 font-heading">ग्रामीण महिलाओं का सशक्तिकरण व स्वावलंबन</h1>
-                            <p class="text-warning fw-bold mb-2 fs-6">Empowering Rural Women & Self-Reliance Through JLG Micro-Finance</p>
-                            <p class="text-white-50 mb-3 fs-6 lh-relaxed d-none d-md-block">उत्तर प्रदेश, मध्य प्रदेश, बिहार, झारखंड और छत्तीसगढ़ में महिलाओं के लिए आसान डोरस्टेप समूह ऋण सुविधा।</p>
+                            <h1 class="display-5 text-white fw-extrabold mb-2 font-heading">Empowering Rural Women & Self-Reliance</h1>
+                            <p class="text-white-50 mb-3 fs-6 lh-relaxed d-none d-md-block">Doorstep Joint Liability Group (JLG) micro-loans across UP, MP, Bihar, Jharkhand & Chhattisgarh.</p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
-                                <a href="contact.php?practice=MicroFinance#case-filing" class="btn btn-pill btn-pill-accent btn-md shadow-sm"><i class="fa-solid fa-paper-plane me-1"></i> माइक्रो फाइनेंस हेतु आवेदन करें</a>
-                                <a href="#our-services" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-layer-group me-1"></i> हमारी सेवाएं देखें</a>
+                                <a href="contact.php?practice=MicroFinance#case-filing" class="btn btn-pill btn-pill-accent btn-md shadow-sm"><i class="fa-solid fa-paper-plane me-1"></i> Apply Micro Finance</a>
+                                <a href="#our-services" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-layer-group me-1"></i> View Our Services</a>
                             </div>
                         </div>
                     </div>
@@ -63,14 +62,13 @@ include 'includes/header.php';
                     <div class="row justify-content-center">
                         <div class="col-lg-10 col-xl-8">
                             <span class="badge bg-primary text-white rounded-pill px-3 py-1.5 mb-2 fw-bold text-uppercase fs-7 shadow">
-                                <i class="fa-solid fa-briefcase me-1"></i> बिजनेस व एमएसएमई लोन (Business & MSME)
+                                <i class="fa-solid fa-briefcase me-1"></i> Business & MSME Loans
                             </span>
-                            <h1 class="display-5 text-white fw-extrabold mb-1 font-heading">छोटे व्यवसायों व कुटीर उद्योगों को वित्तीय मजबूती</h1>
-                            <p class="text-warning fw-bold mb-2 fs-6">Fueling Small Businesses & Regional Enterprises Across Rural India</p>
-                            <p class="text-white-50 mb-3 fs-6 lh-relaxed d-none d-md-block">ग्रामीण दुकानदारों, छोटे व्यापारियों और कुटीर उद्योगों के लिए आसान कार्यशील पूंजी व व्यापार विस्तार ऋण।</p>
+                            <h1 class="display-5 text-white fw-extrabold mb-2 font-heading">Fueling Small Business & Regional Enterprise</h1>
+                            <p class="text-white-50 mb-3 fs-6 lh-relaxed d-none d-md-block">Working capital and business expansion finance for rural traders, shopkeepers, and cottage industries.</p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
-                                <a href="contact.php?practice=BusinessLoan#case-filing" class="btn btn-pill btn-pill-accent btn-md shadow-sm"><i class="fa-solid fa-building me-1"></i> बिजनेस लोन हेतु आवेदन करें</a>
-                                <a href="contact.php?practice=MSME#case-filing" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-gears me-1"></i> एमएसएमई लोन जानकारी</a>
+                                <a href="contact.php?practice=BusinessLoan#case-filing" class="btn btn-pill btn-pill-accent btn-md shadow-sm"><i class="fa-solid fa-building me-1"></i> Apply Business Loan</a>
+                                <a href="contact.php?practice=MSME#case-filing" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-gears me-1"></i> Apply MSME Credit</a>
                             </div>
                         </div>
                     </div>
@@ -84,14 +82,13 @@ include 'includes/header.php';
                     <div class="row justify-content-center">
                         <div class="col-lg-10 col-xl-8">
                             <span class="badge bg-info text-dark rounded-pill px-3 py-1.5 mb-2 fw-bold text-uppercase fs-7 shadow">
-                                <i class="fa-solid fa-user-check me-1"></i> घर-घर बैंकिंग व लोन सहायता
+                                <i class="fa-solid fa-user-check me-1"></i> Doorstep Financial Sourcing
                             </span>
-                            <h1 class="display-5 text-white fw-extrabold mb-1 font-heading">डीआरए प्रमाणित फील्ड नेटवर्क द्वारा सत्यापन</h1>
-                            <p class="text-warning fw-bold mb-2 fs-6">DRA-Certified Field Network & Doorstep File Sourcing</p>
-                            <p class="text-white-50 mb-3 fs-6 lh-relaxed d-none d-md-block">आवेदक सत्यापन, केवाईसी दस्तावेजीकरण, पते की जांच और बैंकों हेतु स्वच्छ लोन फाइल तैयार करना।</p>
+                            <h1 class="display-5 text-white fw-extrabold mb-2 font-heading">DRA-Certified Field Network & Verification</h1>
+                            <p class="text-white-50 mb-3 fs-6 lh-relaxed d-none d-md-block">Pre-qualified borrower files, KYC logging, address verification, and clean file handover.</p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
-                                <a href="contact.php#case-filing" class="btn btn-pill btn-pill-accent btn-md shadow-sm"><i class="fa-solid fa-file-shield me-1"></i> पूछताछ डेस्क (ENQ-06)</a>
-                                <a href="compliance.php" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-shield-halved me-1"></i> नियम व दिशा-निर्देश</a>
+                                <a href="contact.php#case-filing" class="btn btn-pill btn-pill-accent btn-md shadow-sm"><i class="fa-solid fa-file-shield me-1"></i> Enquiry Desk (ENQ-06)</a>
+                                <a href="compliance.php" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-shield-halved me-1"></i> Compliance Standards</a>
                             </div>
                         </div>
                     </div>
@@ -105,14 +102,13 @@ include 'includes/header.php';
                     <div class="row justify-content-center">
                         <div class="col-lg-10 col-xl-8">
                             <span class="badge bg-warning text-dark rounded-pill px-3 py-1.5 mb-2 fw-bold text-uppercase fs-7 shadow">
-                                <i class="fa-solid fa-house-chimney me-1"></i> होम लोन व वाहन फाइनेंस
+                                <i class="fa-solid fa-house-chimney me-1"></i> Home & Vehicle Loans
                             </span>
-                            <h1 class="display-5 text-white fw-extrabold mb-1 font-heading">ग्रामीण क्षेत्रों में पक्के मकान व वाहन सुविधा</h1>
-                            <p class="text-warning fw-bold mb-2 fs-6">Building Rural Housing & Agricultural Mobility</p>
-                            <p class="text-white-50 mb-3 fs-6 lh-relaxed d-none d-md-block">पक्के मकान निर्माण, गृह नवीनीकरण, ट्रैक्टर एवं व्यावसायिक लोडर वाहनों के लिए आसान ऋण सुविधा।</p>
+                            <h1 class="display-5 text-white fw-extrabold mb-2 font-heading">Building Housing & Mobility Across Rural India</h1>
+                            <p class="text-white-50 mb-3 fs-6 lh-relaxed d-none d-md-block">Affordable home construction, structural renovation, tractor, and commercial loader vehicle financing.</p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
-                                <a href="contact.php?practice=HomeLoan#case-filing" class="btn btn-pill btn-pill-accent btn-md shadow-sm"><i class="fa-solid fa-house me-1"></i> होम लोन हेतु आवेदन करें</a>
-                                <a href="contact.php?practice=VehicleLoan#case-filing" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-truck-pickup me-1"></i> व्हीकल लोन आवेदन</a>
+                                <a href="contact.php?practice=HomeLoan#case-filing" class="btn btn-pill btn-pill-accent btn-md shadow-sm"><i class="fa-solid fa-house me-1"></i> Apply Home Loan</a>
+                                <a href="contact.php?practice=VehicleLoan#case-filing" class="btn btn-pill btn-pill-outline-light btn-md"><i class="fa-solid fa-truck-pickup me-1"></i> Apply Vehicle Loan</a>
                             </div>
                         </div>
                     </div>
@@ -172,9 +168,9 @@ include 'includes/header.php';
     <section class="section-padding bg-white border-top">
         <div class="container">
             <div class="text-center mb-4" data-aos="fade-up">
-                <span class="eyebrow-tag mx-auto d-table">वास्तविक फील्ड संचालन (REAL FIELD OPERATIONS)</span>
-                <h2 class="display-6 fw-extrabold text-dark mb-1">धरातल पर वित्तीय समावेशन की झलक</h2>
-                <p class="text-muted small mb-0">गुरुत्मा फाइनेंस द्वारा ग्रामीण क्षेत्रों में आयोजित जेएलजी बैठकें, आवेदन सत्यापन व पासबुक वितरण की वास्तविक तस्वीरें।</p>
+                <span class="eyebrow-tag mx-auto d-table">AUTHENTIC FIELD OPERATIONS</span>
+                <h2 class="display-6 fw-extrabold text-dark mb-1">Grassroots Financial Inclusion In Action</h2>
+                <p class="text-muted small mb-0">Actual ground photos of Gurutma Financial Services doorstep JLG meetings & loan application desk in rural India.</p>
                 <div class="mx-auto mt-2" style="width: 50px; height: 3px; background: var(--primary); border-radius: var(--radius-pill);"></div>
             </div>
 
@@ -234,9 +230,9 @@ include 'includes/header.php';
     <section class="section-padding bg-canvas border-top text-start" id="our-services">
         <div class="container">
             <div class="text-center mb-4" data-aos="fade-up">
-                <span class="eyebrow-tag mx-auto d-table">हमारी 7 प्रमुख वित्तीय सेवाएं (OUR 7 LOAN PRODUCTS)</span>
-                <h2 class="display-6 fw-extrabold text-dark mb-1">आपकी हर वित्तीय आवश्यकता के लिए ऋण समाधान</h2>
-                <p class="text-muted small mb-0">माइक्रो फाइनेंस, बिजनेस लोन, पर्सनल लोन, व्हीकल लोन, होम लोन एवं एमएसएमई लोन सेवाएं।</p>
+                <span class="eyebrow-tag mx-auto d-table">OUR 7 LOAN PRODUCTS</span>
+                <h2 class="display-6 fw-extrabold text-dark mb-1">Comprehensive Credit Solutions For Your Financial Growth</h2>
+                <p class="text-muted small mb-0">Micro Finance, Business Loans, Personal Loans, Vehicle Loans, Home Loans & MSME Loans.</p>
                 <div class="mx-auto mt-2" style="width: 50px; height: 3px; background: var(--primary); border-radius: var(--radius-pill);"></div>
             </div>
 
@@ -399,11 +395,10 @@ include 'includes/header.php';
         <div class="container">
             <div class="row g-4 g-lg-5 align-items-center">
                 <div class="col-lg-5 pe-lg-4 text-start" data-aos="fade-right">
-                    <span class="eyebrow-tag">ऑनलाइन आवेदन डेस्क (ENQ-06)</span>
-                    <h2 class="fw-extrabold text-dark mb-2">ऑनलाइन केस फाइलिंग व लोन सोर्सिंग डेस्क</h2>
-                    <p class="text-warning fw-bold mb-2 small">Client Case Filing & Loan Sourcing Desk (ENQ-06)</p>
+                    <span class="eyebrow-tag">File Code: ENQ-06</span>
+                    <h2 class="fw-extrabold text-dark mb-3">Client Case Filing & Sourcing Desk</h2>
                     <p class="text-muted mb-3 lh-lg">
-                        अपनी लोन आवश्यकताएं, माइक्रो फाइनेंस JLG समूह लोन या व्यवसाय विस्तार हेतु 256-बिट सुरक्षित एन्क्रिप्टेड फॉर्म भरें।
+                        Submit your loan sourcing requirements, microfinance mandates, or credit portfolio details through our 256-bit encrypted filing desk.
                     </p>
 
                     <div class="p-3.5 bg-white rounded-4 border shadow-xs mb-4">
